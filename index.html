@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <script src="Weather_Condition.js"></script>
+    <!-- Basic Icons -->
+    <link href="https://cdn.boxicons.com/3.0.8/fonts/basic/boxicons.min.css" rel="stylesheet">
+    <!-- Filled Icons -->
+    <link href="https://cdn.boxicons.com/3.0.8/fonts/filled/boxicons-filled.min.css" rel="stylesheet">
+    <!-- Brand Icons -->
+    <link href="https://cdn.boxicons.com/3.0.8/fonts/brands/boxicons-brands.min.css" rel="stylesheet">
+</head>
+<body>
+    <!--whole application container - outer container-->
+    <div class="container">
+
+        <div class="col1">
+            <div class="search">
+                <form class="searchForm">
+                    <input type="search" class="citysearch" placeholder="Search city">
+                    <button class="searchbtn"><i class='bx bx-search' ></i></button>
+                </form>
+                <button class="theme"><i class="bx bx-sun-dim"></i></i></button>
+            </div>
+            <div class="temp">
+                <div class="temp-details">
+                    <h2 class="temp-num">31°C</h2>
+                    <p class="temp-descript">Overcast clouds</p>
+                </div>
+                <div class="temp-image"><i class="bx bx-cloud-lightning" ></i></div>
+            </div>
+            <div class="city-details">
+                <div class="city-descript">
+                    <h2 class="city">Barcelona</h2>
+                    <p class="feel-like">Feel like 25°C</p>
+                </div>
+                <div class="date-time">
+                    <h4 class="time">7:00pm</h4>
+                    <p class="date">15 March 2026</p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col2">
+            <div class="row1">
+                <div class="wind-speed">
+                    <h3>Wind Speed</h3>
+                    <i class="bx bx-wind"></i>
+                    <p class="wind-value">1.4 km/h</p>
+                </div>
+                <div class="humidity">
+                    <h3>Humidity</h3>
+                    <i class="bx bx-water-drop-alt"></i>
+                    <p class="humidity-value">50%</p>
+                </div>
+            </div>
+            <div class="row2">
+                <div class="pressure">
+                    <h3>Pressure</h3>
+                    <i class="bx bx-chevrons-down"></i>
+                    <p class="pressure-value">1024.0 hPa</p>
+                </div>
+                <div class="visibility">
+                    <h3>Visibility</h3>
+                    <i class="bx bx-eye"></i>
+                    <p class="visibility-value">1000 km</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
