@@ -1,1 +1,1 @@
-I am creating a Weather App
+Weather App using a public API
